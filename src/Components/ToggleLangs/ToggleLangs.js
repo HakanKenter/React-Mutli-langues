@@ -8,7 +8,7 @@ import {Context} from '../../context/langContext'
 export default function ToggleLangs() {
 
     const {toggleLang} = useContext(Context)
-
+    
     return (
         <div className='container-langs'>
             <img onClick={() => toggleLang('FR')} src={FrenchFlag} />  
