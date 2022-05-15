@@ -7,8 +7,6 @@ export default function Contenu() {
 
     const {lang} = useContext(Context);
 
-    console.log(lang)
-
     return (
         <div className='content'>
             <h1 className='title'>{data[lang].title}</h1>
